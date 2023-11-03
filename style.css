@@ -12,6 +12,7 @@ header{
 main{
     background-color: rgb(49,139,41);
     min-height: 300px;
+    display: flex;
 }
 .cards{
     background-color: rgb(47,198,33);
@@ -33,4 +34,15 @@ main{
     width: 30%;
     height: 341px;
     background-color: darkcyan;
+}
+.herobox1{
+    background-color: darkgreen;
+    flex: 2; /* Zamiast uzywac np width: 66%, można użyć flex, to coś w stylu ratio 2:1*/
+}
+.herobox2{
+    background-color: orange;
+    flex: 1;
+}
+.hoho{
+    width: 40px;
 }
