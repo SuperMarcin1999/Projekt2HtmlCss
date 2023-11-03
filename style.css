@@ -41,21 +41,28 @@ main{
     background-image: url(images/image-background-card1-b.jpg);
     background-size: cover;
     background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
+    text-align: center;
+    padding-top: 10px;
 }
 .card2{
     width: 30%;
     background-image: url(images/image-background-card2-b.jpg);
     background-size: cover;
     background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
+    text-align: center;
+    padding-top: 10px;
 }
 .card3{
     width: 30%;
     background-image: url(images/image-background-card3-b.jpg);
     background-size: cover;
     background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
+    text-align: center;
+    padding-top: 10px;
 }
 .herobox1{
     flex: 2; /* Zamiast uzywac np width: 66%, można użyć flex, to coś w stylu ratio 2:1*/
+    padding-right: 70px;
 }
 .herobox2{
     flex: 1;
@@ -65,7 +72,17 @@ h1{
     font-family: 'Playfair', serif;
     margin-bottom: 1.1rem;
 }
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair', serif;
+    margin-bottom: 1.1rem;
+}
 p{
     line-height: 1.75rem;
     margin-bottom: 0.75rem;
+}
+.cards p{
+    font-size: 0.8rem;
+    line-height: 1.35rem;
+    margin: 20px 20px 10px 20px; /* top, right, bottom, left */
 }
