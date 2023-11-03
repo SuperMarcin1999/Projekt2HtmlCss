@@ -32,25 +32,27 @@ main{
     align-items: center;
 }
 .cards{
-    background-color: rgb(47,198,33);
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
 }
 .card1{
     width: 30%;
-    height: 341px;
-    background-color: burlywood;
+    min-height: 250px;
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size: cover;
+    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
 }
 .card2{
     width: 30%;
-    height: 341px;
-    background-color: cadetblue;
+    background-image: url(images/image-background-card2-b.jpg);
+    background-size: cover;
+    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
 }
 .card3{
     width: 30%;
-    height: 341px;
-    background-color: darkcyan;
+    background-image: url(images/image-background-card3-b.jpg);
+    background-size: cover;
+    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
 }
 .herobox1{
     flex: 2; /* Zamiast uzywac np width: 66%, można użyć flex, to coś w stylu ratio 2:1*/
