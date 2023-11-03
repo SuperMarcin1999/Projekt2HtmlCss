@@ -16,4 +16,20 @@ main{
 .cards{
     background-color: rgb(47,198,33);
     min-height: 300px;
+    display: flex;
+}
+.card1{
+    width: 341px;
+    height: 341px;
+    background-color: burlywood;
+}
+.card2{
+    width: 341px;
+    height: 341px;
+    background-color: cadetblue;
+}
+.card3{
+    width: 341px;
+    height: 341px;
+    background-color: darkcyan;
 }
