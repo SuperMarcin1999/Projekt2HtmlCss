@@ -70,12 +70,12 @@ main{
 h1{
     font-size: 4rem;
     font-family: 'Playfair', serif;
-    margin-bottom: 1.1rem;
+    margin-bottom: 10px;
 }
 h2{
     font-size: 2rem;
     font-family: 'Playfair', serif;
-    margin-bottom: 1.1rem;
+    margin-bottom: 10px;
 }
 p{
     line-height: 1.75rem;
@@ -84,5 +84,10 @@ p{
 .cards p{
     font-size: 0.8rem;
     line-height: 1.35rem;
-    margin: 20px 20px 10px 20px; /* top, right, bottom, left */
+    margin: 0px 20px 10px 20px; /* top, right, bottom, left */
+}
+i {
+    font-size: 72px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
