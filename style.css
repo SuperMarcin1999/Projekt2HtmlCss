@@ -3,11 +3,14 @@ html{
 }
 
 body{
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: linear-gradient(90deg, #b89a49 0%, rgb(190, 73, 43) 100%);
 
     /* background-image: linear-gradient(red, white); */
     /* background-image: linear-gradient(to left,red, yellow); */
     /* background-image: linear-gradient(to right,red, yellow); */
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 1024px;
@@ -53,4 +56,8 @@ main{
 }
 .herobox2{
     flex: 1;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Playfair', serif;
 }
