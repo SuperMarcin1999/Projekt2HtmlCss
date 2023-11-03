@@ -1,6 +1,5 @@
 .container{
     width: 1024px;
-    background-color: rgb(18,60,12);
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -10,9 +9,9 @@ header{
     min-height: 100px;
 }
 main{
-    background-color: rgb(49,139,41);
     min-height: 300px;
     display: flex;
+    align-items: center;
 }
 .cards{
     background-color: rgb(47,198,33);
@@ -36,13 +35,8 @@ main{
     background-color: darkcyan;
 }
 .herobox1{
-    background-color: darkgreen;
     flex: 2; /* Zamiast uzywac np width: 66%, można użyć flex, to coś w stylu ratio 2:1*/
 }
 .herobox2{
-    background-color: orange;
     flex: 1;
-}
-.hoho{
-    width: 40px;
 }
