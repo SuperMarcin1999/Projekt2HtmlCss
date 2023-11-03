@@ -17,19 +17,20 @@ main{
     background-color: rgb(47,198,33);
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 .card1{
-    width: 341px;
+    width: 30%;
     height: 341px;
     background-color: burlywood;
 }
 .card2{
-    width: 341px;
+    width: 30%;
     height: 341px;
     background-color: cadetblue;
 }
 .card3{
-    width: 341px;
+    width: 30%;
     height: 341px;
     background-color: darkcyan;
 }
