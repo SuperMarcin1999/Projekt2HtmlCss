@@ -1,6 +1,4 @@
-html{
-    height: 100%; /* Dzięki temu mamy gradient do samego dołu */
-}
+html{}
 
 body{
     background-image: linear-gradient(90deg, #b89a49 0%, rgb(190, 73, 43) 100%);
@@ -123,7 +121,20 @@ i {
     padding: 10px 20px;
     border-radius: 3px;
 }
-
 .herobox2 img {
     border-radius: 5px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.flex-item{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    width: 47%;
+    padding: 50px;
+    min-height: 280px;
+    margin-top: 50px;
 }
