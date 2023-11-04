@@ -94,10 +94,23 @@ i {
     font-family: 'Playfair', serif;
     font-size: 1.125rem;
     padding: 10px;
-    border-radius: 3px;
     
     /* Shadow :  */
     -webkit-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
     box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
+
+    /* Margines: */
+    display: inline-block;
+    margin-top: 20px;
+
+    /* Border radiusy: */
+    border-radius: 3px;
+    /* border-radius: 0 20px; */
+    /* border-radius: 20px 0; */
+    /* border-radius: 0 0 20px 0; */
+}
+
+.herobox2 img {
+    border-radius: 5px;
 }
