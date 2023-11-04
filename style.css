@@ -49,6 +49,7 @@ a {
     background-size: cover;
     background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
     text-align: center;
+    box-shadow: -1px 3px 6px rgba(0,0,0, 0.3);
 }
 .card1 {
     background-image: url(images/image-background-card1-b.jpg);
@@ -96,9 +97,10 @@ i {
     padding: 10px;
     
     /* Shadow :  */
-    -webkit-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
-    box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
+    /* Shadow: x, y, rozmycie (blur), color
+    /* -webkit-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 4px 7px -3px rgba(66, 68, 90, 1); */
+    box-shadow: 0px 3px 5px rgba(0,0,0, 0.3);
 
     /* Margines: */
     display: inline-block;
