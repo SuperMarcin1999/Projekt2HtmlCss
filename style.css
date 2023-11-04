@@ -35,30 +35,25 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.card1{
+.card1, .card2, .card3 {
+    /* padding wewnetrzny dla diva:  */
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+
     width: 30%;
     min-height: 250px;
+    background-size: cover;
+    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
+    text-align: center;
+}
+.card1 {
     background-image: url(images/image-background-card1-b.jpg);
-    background-size: cover;
-    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
-    text-align: center;
-    padding-top: 10px;
 }
-.card2{
-    width: 30%;
+.card2 {
     background-image: url(images/image-background-card2-b.jpg);
-    background-size: cover;
-    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
-    text-align: center;
-    padding-top: 10px;
 }
-.card3{
-    width: 30%;
+.card3 {
     background-image: url(images/image-background-card3-b.jpg);
-    background-size: cover;
-    background-position: bottom; /* Zaczyna od dołu, jak utnie to góre zdjęcia */
-    text-align: center;
-    padding-top: 10px;
 }
 .herobox1{
     flex: 2; /* Zamiast uzywac np width: 66%, można użyć flex, to coś w stylu ratio 2:1*/
@@ -84,12 +79,10 @@ p{
 .cards p{
     font-size: 0.8rem;
     line-height: 1.35rem;
-    margin: 0px 20px 10px 20px; /* top, right, bottom, left */
 }
 i {
     font-size: 72px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 a {
     color: white;
