@@ -91,3 +91,7 @@ i {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
