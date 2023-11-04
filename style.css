@@ -26,6 +26,11 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+nav {
+    /* Można by po prostu zrobić nav a i margin left, ale takie podejscie takie fajniejsze sie wydaje */
+    display: flex;
+    gap: 15px; /* Dodaj odstęp między przyciskami */
+}
 main{
     min-height: 300px;
     display: flex;
@@ -94,7 +99,7 @@ i {
     color: #BE4C2C;
     font-family: 'Playfair', serif;
     font-size: 1.125rem;
-    padding: 10px;
+    padding: 10px 20px;
     
     /* Shadow :  */
     /* Shadow: x, y, rozmycie (blur), color
