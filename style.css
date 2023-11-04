@@ -25,6 +25,7 @@ header{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 }
 nav {
     /* Można by po prostu zrobić nav a i margin left, ale takie podejscie takie fajniejsze sie wydaje */
