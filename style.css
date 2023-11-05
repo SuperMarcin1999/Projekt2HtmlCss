@@ -116,6 +116,10 @@ i {
     /* border-radius: 20px 0; */
     /* border-radius: 0 0 20px 0; */
 }
+.btn:hover{
+    background-color: rgb(230,230,230);
+    transition-duration: 200ms;
+}
 .nav-btn {
     border: 1px solid white;
     padding: 10px 20px;
