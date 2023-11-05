@@ -178,3 +178,10 @@ i {
 .dropdown-box .nav-btn a {
     color: #BE4C2C;
 }
+
+/* Contact html */
+.main2 {
+    min-height: 300px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
