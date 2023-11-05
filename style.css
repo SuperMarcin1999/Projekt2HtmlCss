@@ -142,3 +142,16 @@ i {
     min-height: 280px;
     margin-top: 50px;
 }
+/* Piewszy element */
+/* .flex-item:first-child{
+    border: 2px dotted lightgray;
+} */
+/* Co n element, tutaj co trzeci */
+/* .flex-item:nth-child(3n){
+    border: 2px dotted lightgray;
+} */
+/* Ostatni p tag w itemie flex-item */
+.flex-item p:last-of-type{
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
