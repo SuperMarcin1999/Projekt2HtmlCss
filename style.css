@@ -1,5 +1,10 @@
-body{
+html {
     background-image: linear-gradient(90deg, #b89a49 0%, rgb(190, 73, 43) 100%);
+}
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 
     /* background-image: linear-gradient(red, white); */
     /* background-image: linear-gradient(to left,red, yellow); */
