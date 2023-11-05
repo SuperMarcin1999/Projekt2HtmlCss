@@ -1,0 +1,39 @@
+body {
+    background-color: darkgray;
+}
+a {
+    text-decoration: none;
+}
+.nav-btn {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+}
+.dropdown-box .nav-btn {
+    background-color: rgb(255, 235, 204)
+}
+/* Wylaczenie widocznosci, ma byc widoczne tylko jesli jest na tym kursor (lub inna akcja) */
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 1; /* defaultowo wszystko 0, czasem zdjęcie czy cos moze nam zasłonić przyciski */
+}
+/* kiedy nav-btn jest najechany, edytuje jego element o nazwie dropdown-box, czyli naszą listę */
+.nav-btn:hover .dropdown-box {
+    display: block;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.dropdown-box .nav-btn {
+    display: block; /* blokowo, czyli pod siebie, tak sie przyciski w liscie maja zachowywac */
+}
+.dropdown-box .nav-btn:hover {
+    background-color: rgb(235, 215, 194);
+}
+.dropdown-box .nav-btn:not(:first-child) {
+    border-top: 2px dotted gray;
+}
