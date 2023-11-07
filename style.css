@@ -185,3 +185,6 @@ i {
     padding-top: 40px;
     box-sizing: border-box;
 }
+.input-wrapper {
+    margin-bottom: 20px;
+}
