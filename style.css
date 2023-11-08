@@ -186,5 +186,37 @@ i {
     box-sizing: border-box;
 }
 .input-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+
+/* #name, #email, #text-area{ */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+input[type=radio] {
+    margin-right: 5px;
+}
+select {
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#btn-submit {
+    border-style: none;
+}
+.radio label {
+    margin-right: 15px;
+}
+form {
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
